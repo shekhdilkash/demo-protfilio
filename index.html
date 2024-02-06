@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    nav {
+      background-color: #e5111f;
+      color: #ffffff;
+      padding: 1em;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 1em;
+      font-size: 1.2em;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #ff7f50;
+    }
+
+    header {
+      background-image: linear-gradient(to right, #07f50f, #ec0d0d);
+      color: white;
+      text-align: center;
+      padding: 8em 0;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      color: #180c57;
+    }
+
+    header p {
+      font-size: 1.5em;
+      color: #ffffff;
+    }
+
+    #about {
+      background-color: #ffffff;
+      padding: 4em 0;
+      text-align: center;
+    }
+
+    #about h2 {
+      font-size: 2.5em;
+      margin-bottom: 1em;
+      color: #333;
+    }
+
+    #about p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+
+    #portfolio {
+      padding: 4em 0;
+      text-align: center;
+      background-color: #f20780;
+    }
+
+    #portfolio h2 {
+      font-size: 2.5em;
+      margin-bottom: 2em;
+      color: #333;
+    }
+
+    #portfolio .project {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    #portfolio .project:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #portfolio .project.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    #contact {
+      background-color: #02abff;
+      color: white;
+      padding: 4em 0;
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 2.5em;
+      margin-bottom: 2em;
+    }
+
+    footer {
+      background-color: #0be203;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#project">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#degree">Degree</a>
+    <a href="#hobbies">Hobies</a>
+    <a href="#social">Social Media</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Hey I'M Dilkash Shekh</h1>
+    <p>Developer+Designer+Programmer</p>
+  </header>
+
+    <!-- Home Section -->
+
+    
+    <section id="home" >
+      <main>
+      <center><h2 >Home</h2>
+        <font style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+          <marquee behavior="alternet" direction="" bgcolor="red" style="color: white;"> Welcome to Techno Dilkash &nbsp;
+            "Let's weave magic – creating something to be extraordinary."</marquee>
+        </font>
+     
+     
+      <img src="./image/home_image.jpg" alt="">
+    </center>
+  </main>
+    </section>
+
+    <hr size="5px;" color="black">
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <main>
+      <!-- Your main content goes here -->
+
+      <!-- Profile Picture -->
+      <img src="./image/profile.jpg" alt="Your Name" style="width: 150px; height:200px; border-radius: 50%;"><br>
+
+      <p>"Hello, I'm Dilkash Shekh from Madhesh Province, Mahottari, Balwa. A passionate programmer, developer, and designer navigating the digital realms. Crafting innovation and aesthetics on my technology site. Explore the extraordinary with me in the world of code and creativity. 🚀💻✨ #Programmer #Developer"</p>
+
+    <p>"Immersed in the intricate symphony of code, I find my passion in the dance of algorithms and the artistry of complex computer programming. Each line, a brushstroke; every function, a masterpiece. In this realm of ones and zeros, I thrive, turning complexity into a canvas of innovation. 🚀💻✨ #Problem_Solver #PassionateProgrammer"</p>
+      </main>
+     </section>
+
+     <hr size="5px;" color="black">
+
+
+ <!-- Projects Section -->
+      <section id="project">
+        <center>
+          <h2 >Projects</h2>
+          <ul type="none">
+            <h3 >Static Projects(with Coding)</h3>
+            &#8595;
+          <a href="https://shekhdilkash.github.io/Ads-Shopping/"> <li><b>First Project &#8594;Ads Online Shopping </b></li></a> 
+
+          /// <a href="https://dilkasbhai.github.io/Ujal-Computers-Institute/"> <li><b>Second Project &#8594; Ujwal Computer Institute</b></li></a>
+
+           <a href="https://dilkasbhai.github.io/Ads-Computer-Repair/"> <li><b>Third Project &#8594; Ads Computer Repair Center </b></li></a>
+
+          <a href="https://dilkasbhai.github.io/Dami-Restaurant-/"><li><b>Fourth Project &#8594; Dami Resturant</b></li></a>  
+
+           <a href="https://dilkasbhai.github.io/hamropokhara/"><li><b>Fifth Project &#8594;Hamro Pokhara</b></li></a> 
+
+            <a href="https://dilkasbhai.github.io/nbpi_teacher_details/"><li><b>Sixth Project &#8594; Our NBPI Teacher Details </b></li></a>
+            
+           ///<a href=""><li><b>Seventh Project &#8594; Crate Your Profiles</b></li></a> 
+
+            <h3 >Dynamic Projects(without Coding)</h3>
+            &#8595;
+           <a href="https://dshekh688.wixsite.com/technodilkash"><li><b>First Project & &#8594; Techno Dilkash </b></li></a> 
+
+           <a href="https://adsdigitalnepal.wixsite.com/my-site-3"> <li><b>First Project &#8594; Simple Resume </b></li></a>
+            
+          </ul>
+      </center>
+      </section>
+
+      <hr size="5px;" color="black">
+
+        <!-- Skill Section -->
+ 
+        <section id="skills" >
+          <main>
+          <center><h2 >Skills</h2>
+
+            <ul type="none">
+              <li>Teaching Computer Class</li>
+              <li>Public Speaking</li>
+              <li>Website Designing</li>
+              <li>Digital Marketing</li>
+              <li>Video Editing </li>
+              <li>Graphics Designing</li>
+              <li>Computer Software Problems Solver</li>
+              <li>Computer Hardware Problems Solver</li>
+              <li>Data Entry</li>
+              <li>Strong decision maker</li>
+              <li>Complex problem solver</li>
+              <li>Project management</li>
+              <li>Computer Programming</li>
+
+            </ul>
+        </center>
+      </main>
+        </section>
+
+        <hr size="5px;" color="black">
+
+
+        <hr size="5px;" color="black">
+
+
+
+
+        <!-- Degree Section -->
+ 
+        <section id="degree" >
+          <main>
+
+          <center><h2 >Degree</h2>
+       
+     
+        <ul type="none">
+          <li> Google Digital Marketing </li>
+          <li>Diploma in Website Development & Designing</li>
+          <li>Diploma in Graphics Designing</li>
+          <li>Diploma in Computer Hardware & Software</li>
+          <li>Diploma in MS-Office</li>
+          <li>Computer Programming</li>
+          <li>IT-Running</li>
+        </ul>
+      </center>
+    </main>
+  </section>
+
+        <hr size="5px;" color="black">
+
+
+
+
+        <hr size="5px;" color="black">
+
+
+
+
+        <!-- Hobbies Section -->
+        
+        <section id="hobbies" >
+          <main>
+            <center>
+          <h2 >Hobbies</h2>
+          
+            <ul type="none">
+            <li>Codding/Programming</li>
+            <li>Learning New Skills</li>
+             <li>Reading inspirational Books </li>
+             <li>Create Something extraodinary</li>
+             <li>Analysis New Technology</li>
+             <li>Public Speaking</li>
+             <li>Traveling Natural Places</li>
+             <li>Creative Designing</li>
+             <li>Solving Complex Problems</li>
+             <li>Video Editing</li>
+             <li>Accepts Challenges </li>
+              </ul>
+            </center>
+      </main>
+        </section>
+      
+
+        <hr size="5px;" color="black">
+
+
+
+        <!-- Social Media Section -->
+ 
+        
+        <section id="social" >
+          <main>
+          <center><h2 > <link rel="stylesheet" scr="https://www.facebook.com/dilkash.shekh.524"> Social Media</h2>
+            <ul type="none">
+             <a href="https://www.facebook.com/dilkash.shekh.524"><li>Facebook</li></a> 
+             <a href="https://prondscomputer.blogspot.com/"><li>Blog-1</li></a> 
+             <a href="https://techno-dilkash.blogspot.com/"><li>Blog-2</li></a>
+               <a href="https://www.youtube.com/@technodilkash1224/videos"><li>Tech Channel </li></a>
+             <a href="https://www.youtube.com/@mebg/shorts"><li>Facts Channel</li></a>
+             <a href=""><li>Vlogging Channel(no linked) </li></a>
+            </ul>
+            </ul>
+        </center>
+      </main>
+        </section>
+
+
+        <hr size="5px;" color="black">
+
+
+
+      <!-- More content -->
+
+  </main>
+
+    
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: mrdilkashshekh@gmail.com</p>
+    <p>Phone: +977980XXXXXXX</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Dilkash Shekh. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Add fade-in animation to portfolio items on scroll
+    window.addEventListener('scroll', () => {
+      const portfolioItems = document.querySelectorAll('#portfolio .project');
+      portfolioItems.forEach(item => {
+        const itemTop = item.getBoundingClientRect().top;
+        if (itemTop < window.innerHeight - 100) {
+          item.classList.add('show');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
